@@ -10,5 +10,5 @@ Feature: Login Test
     When user enters email
     And user enters password
     And user clicks on submit
-    Then user validates error message
+    Then user validates sign in
     And user closes the browser

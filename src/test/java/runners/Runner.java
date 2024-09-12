@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags =   "@XYZBank",
+        tags =   "@Failed",
         dryRun = false//'dryRun = true' testi çalıştırmaz, eksik step deinitionları bulur.
 )
 
